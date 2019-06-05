@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Lottery Number Generator</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<!-- <link rel="stylesheet" href="../src/styles/index.css" /> -->
+	
 </head>
+
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+	<!-- Just an image -->
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="/src/assets/images/GitHub-Mark-32px.png" width="30" height="30" alt="github-logo" />
+			Random Lotto Number Generator
+		</a>
+	</nav>
+	<div class="container" id="container1">
+		
+			<div class="form-row" id="row2">
+
+			<button type="button"  id="luckyButton" class="btn btn-success btn-block">Get My Lucky Numbers *</button>
+	</div>
+	<p class="luckyNumbers" id="luckyNumbers"></p>
+	<p>* Please note: This app is just for fun and can't guarantee they are actually lucky numbers. If they are, feel free to throw me a bone </p>	
+	<footer class="footer mt-auto py-3 fixed-bottom">
+		<div class="container">
+			<span class="text-muted">Made by Serdar Mustafa</span>
+		</div>
+	</footer>
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<!-- bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<script src="src/scripts/index.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
 </body>
+
 </html>
