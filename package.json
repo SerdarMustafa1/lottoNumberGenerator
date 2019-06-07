@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wbkd/webpack-starter.git"
+		"url": "https://github.com/SerdarMustafa1/lottoNumberGenerator"
 	},
 	"keywords": [
 		"webpack",
@@ -20,9 +20,6 @@
 	],
 	"author": "webkid.io",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/wbkd/webpack-starter/issues"
-	},
 	"devDependencies": {
 		"@babel/core": "^7.4.0",
 		"@babel/plugin-proposal-class-properties": "^7.4.0",
